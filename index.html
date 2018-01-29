@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Alivernini Rebecca, Mereu Arianna, Pompa Daniele">
+    <meta name="description" content="portfolio">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" id="favicon" href=" ">
+    <!-- library css -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
+    <!-- my css -->
+    <link rel="stylesheet" href="src/css/style.css" id="mystyle">
+    <title id="titolo">PORTFOLIO</title>
+</head>
+
+<body>
+    <div class="all">
+        <!-- Barra di navigazione -->
+        <nav class="navbar">
+            <a class="navbar-brand" href="#">
+                <!-- Logo -->
+                <img src="#" width="auto" height="30" class="d-inline-block align-top" id="logo">
+            </a>
+        </nav>
+        <!-- fine Barra di navigazione -->
+        <!-- Landing -->
+        <div class="container-fluid d-flex justify-content-center text-center" id="landing">
+            <div class="raw d-flex justify-content-center align-items-center">
+                <div class="col align-self-center">
+                    <h1 id="nome-cognome">Nome Cognome</h1>
+                    <h2 id="professione">Professione</h2>
+                </div>
+            </div>
+        </div>
+        <!-- fine Landing -->
+        <!-- Progetti -->
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <h2>Portfolio</h2>
+                    <div class="button-group filters-button-group">
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="grid">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- fine Progetti -->
+
+        <!-- Modale Progetti -->
+        <div id="proj" class="modal modfull">
+            <div class="modal-content animate-top full">
+                <div class="content">
+                    <span class="pulsante" onclick="$('#proj').css('display', 'none');$('body').css('overflow', 'visible');$('#mockup').html('');">&times;</span>
+
+                    <!-- header -->
+                    <div class="container-fluid d-flex justify-content-center text-center header">
+                        <div class="raw d-flex justify-content-center align-items-center">
+                            <div class="col align-self-center">
+                                <h2 class="actcolor" id="nome-proj">Nome progetto</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- description -->
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <h2>DESCRIZIONE DEL PROGETTO</h2>
+                                <p id="descrizione"></p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- exemple -->
+                    <div class="container d-flex justify-content-center text-center">
+                        <div class="raw d-flex justify-content-center align-items-center">
+                            <div class="col align-self-center">
+                                <div id="mockup"> </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- client -->
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <h3>Realizzato il: <span id="ggmmyy"></h3></span></h3>
+                                <h3>Sotto richiesta di: <span id="cliente"></span></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Fine Modale Progetti -->
+
+        <!-- library js -->
+        <!-- Jquery -->
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <!-- Boostrap 4.0 -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+        <!-- Lodash per i filtri -->
+        <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.4/lodash.min.js"></script>
+        <!-- my js -->
+        <script src="src/js/calls.js"></script>
+</body>
+</html>

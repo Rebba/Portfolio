@@ -1,0 +1,126 @@
+{
+    "id": "ra",
+    "nome": "Rebecca",
+    "cognome": "Alivernini",
+    "logo": {
+        "esteso": "src/img/ra/logofull.png",
+        "ridotto": "src/img/ra/logo.png"
+    },
+    "foto": "src/img/am/foto.jpg",
+    "eta": 22,
+    "nazionalita": "Italiana",
+    "professione": "Interaction Design",
+    "motto": "Il futuro è oggi",
+    "descrizione": "...",
+    "landing": {
+        "type": "img",
+        "url": "src/img/ra/bg.jpg"
+    },
+    "cv": "src/cv/ra.pdf",
+    "css": "src/css/ra.css",
+    "numerotel": "3293019941",
+    "mail": "rebeccalivernini@gmail.com",
+    "social": [{
+            "name": "facebook",
+            "icon": "url",
+            "url": "rebeccalivernini"
+		},
+        {
+            "name": "linkedin",
+            "icon": "url",
+            "url": "/rebeccalivernini-85739/"
+		},
+        {
+            "name": "behance",
+            "icon": "url",
+            "url": " "
+		}
+	],
+    "project": [
+        {
+            "name": "CONQUENDAM",
+            "id": 0,
+            "tag": ["Web-Design"],
+            "cover": "src/project/001.png",
+            "descrizione": "Conquendam è un applicazione che facilita la vita di ognuno noi. Grazie ad un database interno contenente tutti i nostri prodotti presenti in casa restituisce un elenco di ricette di possibile preparazione",
+            "mockup": [{
+                "type": "img",
+                "url": " "
+			}, {
+                "type": "img",
+                "url": " "
+			}],
+            "ggmmyy": "15/05/2017",
+            "cliente": "Emanuele Tarducci - Davide Mariani"
+		},
+        {
+            "name": "IL LIBRO DEL BEBÉ",
+            "id": 1,
+            "tag": ["Graphics"],
+            "cover": "src/project/002.jpg",
+            "descrizione": "Questo è un progetto personale fatto come regalo di compleanno per mia cugina che aveva appena saputo di aspettare un bambino. Dopo aver osservato cosa offriva il mercato ho deciso di produrre un libro del bebè più particolare e completo possibile. Sotto due pagine che compongono il libro:",
+            "mockup": [{
+                "type": "img",
+                "url": "src/project/002/001.jpg"
+			}, {
+                "type": "img",
+                "url": "src/project/002/002.jpg"
+			}],
+            "ggmmyy": "20/12/2017",
+            "cliente": ""
+	},
+        {
+            "name": "V per Vendetta",
+            "id": 2,
+            "tag": ["Video"],
+            "cover": "src/project/003.png",
+            "descrizione": "Storyboard del film V per Vendetta",
+            "mockup": [{
+                "type": "img",
+                "url": "src/project/003/001.png"
+			}, {
+                "type": "img",
+                "url": "src/project/003/002.png"
+			}],
+            "ggmmyy": "10/04/2016",
+            "cliente": "Martina Meo"
+        },
+
+        {
+            "name": "Michael Kors",
+            "id": 3,
+            "tag": ["Graphics"],
+            "cover": "src/project/004.jpg",
+            "descrizione": "Prova primo impaginato con Indesign",
+            "mockup": [{
+                "type": "img",
+                "url": "src/project/004/001.jpg"
+        }, {
+                "type": "img",
+                "url": "src/project/004/002.jpg"
+        }],
+            "ggmmyy": "26/03/2017",
+            "cliente": "Marco Egizi"
+        },
+        {
+            "name": "INNOVATION FERRERO",
+            "id": 4,
+            "tag": ["Web-Design"],
+            "cover": "src/project/005.png",
+            "descrizione": "Progetto di gruppo realizzato insieme a Dario Salle, Giulio Pallotta e Bernardo Mancioli. Il progetto consisteva nel fare il restyle del sito della Ferrero.",
+            "mockup": [{
+                "type": "img",
+                "url": "src/project/005/001.png"
+        }, {
+                "type": "img",
+                "url": "src/project/005/002.png"
+        }, {
+                "type": "img",
+                "url": "src/project/005/003.png"
+        }],
+            "ggmmyy": "14/10/2016",
+            "cliente": "Andrea De Rosa"
+        }
+
+        ]
+}
